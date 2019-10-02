@@ -23,7 +23,7 @@ function arraySum (arr) {
         console.log(validEmail("nahid")); 
         console.log(validEmail("acidbburner.nahi@gmail.com"));
 
-        
+
         //task 4
         var library = [
             {
@@ -53,3 +53,53 @@ function arraySum (arr) {
                 return library[index].readingStatus
             }
             console.log(readStatus(2))
+
+            //task 5
+
+            var cart = [ 
+                {
+                    name: 'Shoes',
+                    price: 560,
+                    quantity: 4
+                },
+                {
+                    name: 'Regular Tees',
+                    price: 455.50,
+                    quantity: 6
+                },
+                {
+                    name: 'Socks',
+                    price: 65.99,
+                    quantity: 2
+                }];
+                //5a
+                function addItem(newItem){
+                    cart.push(newItem)
+                }
+                var newItem={
+                    name:'Tie',
+                    price:65.99,
+                    quantity:2
+                }
+addItem(newItem)
+console.log(cart)
+
+
+                //5b
+                function sortCart (keyName){
+cart.sort(keyName){
+    
+}
+
+
+
+
+                }
+                //5c
+                function findByName(name){
+
+                }
+                //5d
+                function totalCost(){
+
+                }
